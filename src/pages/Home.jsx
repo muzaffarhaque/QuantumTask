@@ -157,6 +157,43 @@ export default function Home() {
         </div>
       </div>
 
+
+
+
+      <footer className="main-footer-frame">
+        <div className="container">
+          <div className="footer">
+          <div class="footer-column">
+            <h3>CONTACT US</h3>
+            <p><span className=" fw-semibold">E mail</span> <br/><a href="mailto:contact@JILLIONTECHNOLOGIES.com">contact@JILLIONTECHNOLOGIES.com</a></p>
+            <p> <span className=" fw-semibold">Phone</span><br/>123456789</p>
+            <p> <span className=" fw-semibold">Address</span><br/>C-260, Sector-63, Noida, UP-201301</p>
+        </div>
+        <div class="footer-column">
+            <h3>COMPANY</h3>
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">Services</a></p>
+            <p><a href="#">Portfolio</a></p>
+            <p><a href="#">Development Process</a></p>
+            <p><a href="#">Career</a></p>
+        </div>
+        <div class="footer-column">
+            <h3>SERVICE</h3>
+            <p><a href="#">Website Development</a></p>
+            <p><a href="#">Mobile App Development</a></p>
+            <p><a href="#">E-commerce Development</a></p>
+            <p><a href="#">Customer Software Development</a></p>
+        </div>
+        <div class="footer-column">
+            <h3>SUPPORT</h3>
+            <p><a href="#">Contact</a></p>
+            <p><a href="#">Term & Policy</a></p>
+        </div>
+          </div>
+
+        </div>
+     
+    </footer>
     </section>
   );
 }

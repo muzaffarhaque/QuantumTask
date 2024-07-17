@@ -261,3 +261,44 @@
 // 
 // 
 //
+.main-footer-frame{
+    background: linear-gradient(to right, #9235e2, #3b36dc);
+  
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    gap: 5px;
+  
+    .footer-column {
+      width: 23%;
+      min-width: 280px;
+  
+      h3 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-weight: 600;
+      }
+  
+      p {
+        margin: 5px 0;
+        cursor: pointer;
+      }
+  
+      a {
+        color: white;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
