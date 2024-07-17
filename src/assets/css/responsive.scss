@@ -8,6 +8,7 @@
             top: 70px;
             left: 0;
             flex-direction: column;
+            z-index: 10;
             width: 100%;
             gap: clamp(10px, 3vw, 42px);
             transition: all 0.5s;
